@@ -60,8 +60,25 @@
     </div>
     <div>
         <h6>Ma video - titre H6<h6>
-            <video src="video_fleur.mp4" height="200" alt="video de fleur"></video>
+            <video src="video_fleur.mp4" height="300" alt="video de fleur"></video>
     </div>
    </section> 
 </body>
+<h2>formulaire</h2>
+    <form action="/action.php" method="post">
+        <label for="nom"></label>Nom <input id="nom" type="text" placeholder="entrez votre nom">
+        <br>
+        <label for="prenom"></label>Prenom <input id="prenom" type="text" placeholder="entrez votre prenom">
+        <br> 
+        <label for="numero"></label>Numero <input id="numero" type="text" placeholder="entrez votre numero">
+        <br>
+        <label for="cin"></label>CIN <input id="cin" type="text" placeholder="entrez votre CIN">
+        <br>
+        <label for="age"></label>Age <input id="age" type="number" placeholder="entrez votre age"> <br>
+        <label for="genre"></label>Genre 
+        <select name="genre" id="genre">
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+        </select>
+    </form>
 </html>
