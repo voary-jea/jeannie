@@ -1,0 +1,14 @@
+<?php
+//ajouter une valeur
+    $tableau = [1, 2]; 
+    $tableau [0] = 1;
+    $tableau [1] = 2;
+//recup '1'
+    $tableau = array (1, 2);
+    $valeur = $tableau [0]; 
+//modif valeur (2/40)
+    $tableau = array (1, 2);
+    $tableau [1] = 40;
+// sup valeur (40)
+    $tabeau = array (1, 40);
+    unset (tableau [1]);

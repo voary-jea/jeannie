@@ -1,14 +1,10 @@
 <?php
-  $true = 1;
-  $false = 0;
-    if ($true == 1) {
-      echo 'voary';
-    }
-    if ($true != 1) {
-      echo 'je';
-    }
-    if ($false == 0) {
-      echo 'francia';
-    } else {'jeannie';
-    }
- 
+   $famille = [
+    'parent' => [
+      'papa' ,
+      'maman'
+    ],
+    'enfant' => ['soeur' , 'frere']
+  ];
+  echo $famille ['enfant'][1].PHP_EOL;
+  echo $famille ['parent'][0].PHP_EOL;
