@@ -1,5 +1,6 @@
 <?php
-  for ($i = 1; $i <= 5; $i++) {
-    echo $i . "\n"; 
-}
-?>
+  $chiffre = null;
+  while ($chiffre !== 10) {
+    $chiffre = (int)readline ('entrer une heure : ');
+  };
+    echo 'bravo !';
